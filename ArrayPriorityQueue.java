@@ -1,3 +1,12 @@
+/*
+ * Team Mozzarella
+ * Shantanu Jha, Elias Milborn, Henry Zhang
+ * APCS2 pd9
+ * HW35--Privileged Status Gets You to the Front of the Line  
+ * 2016-05-04
+ */
+
+
 import java.util.ArrayList;
 
 public class ArrayPriorityQueue implements PriorityQueue  {
