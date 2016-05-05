@@ -19,8 +19,9 @@ public class ArrayPriorityQueue implements PriorityQueue  {
         return (data.size() == 0);
     }
     public Comparable peekMin(){
-        
+        return data.get(data.size()-1);
     }
     public Comparable removeMin(){
+        return data.remove(data.size()-1);
     }
 }
